@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    font-size: 14px;
+    header{
+        width: 100%;
+        height: 450px;
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),url(images/bg-featured-home.jpg);
+        background-size: cover;
+        background-position: center;   
+        div{
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 250px;
+                height: 45px;
+                margin: 50px;
+            }
+            h1{
+                width: 600px;
+                font-size: 34px;
+                color: white;
+                margin: 220px 0 0 0;
+            }
+        }
+    }
+    main{
+        section{
+            h2{
+                background-color: #102223;
+                color: white;
+                font-weight: 400;
+                width: 600px;
+                padding: 5px 0 5px 25px;
+            }
+            h3{
+                color: white;
+            }
+            p{
+                color: #346264;
+            }
+            a{
+                color: #6df2fc;
+            }
+            &:first-of-type{
+                
+                ul{
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    box-sizing: content-box;
+                    width: 620px;
+                    li{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        margin-bottom: 25px;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                        }
+                        div{
+                            padding-left: 20px;
+                            p{
+                                width: 190px;      
+                            }
+                            
+                            hgroup{
+                               
+                                h3{
+                                    margin: 0 0 20px;
+                                    font-size: 20px;
+                                    width: 200px;
+                                }                   
+                            }                 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        color: white;
+        background-color: #102223;
+        display: flex;
+        justify-content: space-between;
+        nav{          
+            ul {
+                list-style: none;
+                padding-left: 0px;
+                display: flex;
+                li{
+                    padding-left: 15px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+              }
+            }
+        p{
+                padding-right: 15px;
+        }
+            
+    }
+}

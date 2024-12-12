@@ -94,20 +94,18 @@ body {
 
                             padding-left: 20px;
 
-                            p {
-                                width: 80%;
-                            }
+                            p {}
 
                             hgroup {
                                 h3 {
                                     margin: 0 0 20px;
                                     font-size: 20px;
-                                    width: 80%;
+                                    width: 100%;
                                 }
 
                                 p {
                                     font-size: 12px;
-                                    width: 80%;
+                                    width: 100%;
                                 }
                             }
                         }
